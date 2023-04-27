@@ -79,7 +79,8 @@ nav ul li a {
 }
 
 nav ul li a.span {
-    font-weight: 700;
+    letter-spacing: .0112em;
+    font-weight: 400;
     background: linear-gradient(to right, black 36%, white 59%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
