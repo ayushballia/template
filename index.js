@@ -24,3 +24,11 @@ function handleMouseEnter() {
 function handleMouseLeave() {
   cursor.classList.remove('hovered');
 }
+
+
+const bg = document.getElementById("main1");
+window.addEventListener("scroll", function() {
+  bg.style.backgroundSize = 180 - +window.pageYOffset/12+"%";
+  bg.style.opacity = 1 -  +window.pageYOffset/1600+"";
+})
+

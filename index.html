@@ -12,13 +12,17 @@
     <link rel="stylesheet" href="path/to/font-awesome.min.css">
     <script src="path/to/jquery.min.js"></script>
     <script src="https://cdn.rawgit.com/jwarby/jquery-awesome-cursor/master/dist/jquery.awesome-cursor.min.js"></script></pre>
-                
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>        
 </head>
 <body>
+    <!-- <video autoplay loop muted id="myVideo">
+        <source src="img/ddddd.mp4" type="video/mp4">
+    </video> -->
     <div id="cursor"><div id="circle"></div></div>
 
 
-    <header>
+    <header class="sticky-top">
+        
         <div class="logo a-link">
             <a href="index.html">Logo</a>
         </div>
@@ -33,6 +37,42 @@
         </nav>
     
     </header>
+    <main>
+        <!-- <section class="first-box-container"  id="main">
+            <h1 class="title">Lorem, ipsum dolor.</h1>
+        </section> -->
+        <section class="second-box-container"  id="main1">
+            <h2 class="title">Lorem ipsum dolor sit amet</h2>
+            <h2 class="title1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae rerum repellat cum in aliquid. Provident!</h2>
+        </section>
+
+        
+        
+    </main>
+
+    
+    <section class="container my-5" id="case-studies">
+        <div class="text-container">
+            <img class="mb-5" src="img/pexels-zaksheuskaya-1561020.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo vel quia quaerat in sapiente.</p>
+            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga corrupti eligendi tempora veniam sint non blanditiis error autem, eius cumque?</h3>
+        </div>
+        <div class="animation">
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_yzsAKLdwYm.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+        </div>
+    </section>
+
+    <section class="container my-5" id="case-studies">
+        <div class="animation">
+            <lottie-player src="https://assets2.lottiefiles.com/packages/lf20_yzsAKLdwYm.json"  background="transparent"  speed="1"  style="width: 100%; height: 100%;"  loop autoplay></lottie-player>
+        </div>
+        <div class="text-container">
+            <img class="mb-5" src="img/pexels-zaksheuskaya-1561020.jpg" alt="">
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo vel quia quaerat in sapiente.</p>
+            <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga corrupti eligendi tempora veniam sint non blanditiis error autem, eius cumque?</h3>
+        </div>
+        
+    </section>
 
 
     <script src="index.js"></script>
